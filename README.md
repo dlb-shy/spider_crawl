@@ -3,6 +3,72 @@
 
 ## 组成
 
+spider
+
+    ├── __pycache__
+
+    │   └── settings.cpython-37.pyc
+
+    ├── piplelines
+
+    │   └── __init__.py
+
+    ├── requirements.txt
+
+    ├── run.py
+
+    ├── scheduler
+
+    │   ├── __init__.py
+
+    │   ├── __pycache__
+
+    │   │   ├── __init__.cpython-37.pyc
+
+    │   │   └── scheduler.cpython-37.pyc
+
+    │   ├── baijiaohao_s.py
+
+    │   └── scheduler.py
+
+    ├── settings.py
+
+    ├── shttp
+
+    │   ├── __init__.py
+
+    │   ├── __pycache__
+
+    │   │   ├── __init__.cpython-37.pyc
+
+    │   │   ├── get.cpython-37.pyc
+
+    │   │   └── post.cpython-37.pyc
+
+    │   ├── get.py
+
+    │   └── post.py
+
+    ├── spider
+
+    │   ├── __init__.py
+
+    │   ├── __pycache__
+
+    │   │   └── __init__.cpython-37.pyc
+
+    │   └── baijiahao_inl.py
+
+    └── util
+
+    ├── __init__.py
+    
+    ├── __pycache__
+    
+    │   └── __init__.cpython-37.pyc
+    
+    └── date_util.py
+    
 1.scheduler--调度器
     可以通过自定义调度方法，线程数来编写调度文件
     
